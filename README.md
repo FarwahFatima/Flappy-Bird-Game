@@ -7,6 +7,10 @@ Press the spacebar or the up arrow key to make the bird flap its wings and gain 
 Avoid colliding with the pipes and the ground. Collisions result in game over.
 Your score increases as you successfully navigate the bird through the pipes.
 
+Screenshots:
+![Title screen](https://raw.githubusercontent.com/FarwahFatima/Flappy-Bird-Game/main/SS1.PNG)
+![Play screen](https://raw.githubusercontent.com/FarwahFatima/Flappy-Bird-Game/main/SS2.PNG)
+
 Credits
 Game sprites and sounds sourced from Flappy Bird Clone Assets
 Flappy Bird concept created by @Code with Harry
