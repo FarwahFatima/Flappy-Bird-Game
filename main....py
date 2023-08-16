@@ -81,7 +81,7 @@ def mainGame():
                     PlayerFlapped = True
                     GAME_SOUNDS['wing'].play()
 
-        crash_test = isCollide(playerx , playery , upperPipes, lowerPipes) # rreturn Truw if the player is crashed
+        crash_test = isCollide(playerx , playery , upperPipes, lowerPipes) # return True if the player is crashed
         if crash_test:
             return
         # check the score
