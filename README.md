@@ -17,5 +17,5 @@ Screenshots:
 
 Credits:
 
-Game sprites and sounds sourced from Flappy Bird Clone Assets
+Game sprites and sounds sourced from Flappy Bird Clone Assets.
 Flappy Bird concept created by @Code with Harry
