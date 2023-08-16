@@ -1,7 +1,7 @@
 import random # for generating random numbers
 import sys  # to exit the program
 import pygame
-from pygame.locals import *  # Basic pygame iimpoprt
+from pygame.locals import *  # pygame impoprt
 
 # Global Variables for the game
 FPS = 32
@@ -105,7 +105,7 @@ def mainGame():
                 upperPipes['x'] += pipeVelX
                 lowerPipes['x'] += pipeVelX
 
-            # add new pipe when previous is about to cross the screen
+            # new pipe when previous is about to cross the screen
             if 0 < upperPipes[0]['x'] <5:
                 newpipe = getRandomPipe()
                 upperPipes.append(newpipe[0])
@@ -116,7 +116,7 @@ def mainGame():
                 upperPipes.pop(0)
                 lowerPipes.pop(0)
 
-            # let's blit our sprites 
+            # blit our sprites 
             SCREEN.blit(GAME_SPRITES['background'],(0,0))
             for upperPipe,lowerPipe in zip(upperPipes,lowerPipes):
                 SCREEN.blit(GAME_SPRITES['pipe'][0],(upperPipe['x'],upperPipe['y']))
