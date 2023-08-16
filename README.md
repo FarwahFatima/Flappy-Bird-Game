@@ -1,5 +1,6 @@
 # Flappy-Bird-Game
 Introduction:
+
 This project is a simple implementation of the popular Flappy Bird game using Python and the Pygame library. The game features a bird that the player can control using spacebar or the up arrow key. The objective is to navigate the bird through the gaps between pipes without colliding with them or the ground.
 
 Gameplay:
@@ -15,5 +16,6 @@ Screenshots:
 
 
 Credits:
+
 Game sprites and sounds sourced from Flappy Bird Clone Assets
 Flappy Bird concept created by @Code with Harry
